@@ -1,0 +1,100 @@
+body {
+    background: #023047;
+    border: magenta solid 3px;
+    margin: 0;
+    height: 100%;
+}
+  
+.grid-container { 
+    display: grid;
+    grid-template: 
+    [nav bar] "header header header"
+    [main]"main main main";
+    border: pink solid;
+    overflow:hidden;
+    grid-template-columns: 20%;
+    
+}
+.grid-header {
+    grid-area: header;
+    border: purple solid;
+}
+.grid-main {
+    border: white solid;
+    padding: 5%;
+}
+
+#landing_header {
+    color: #EAE8E2;
+    width: 100%;
+    height: 50%;
+    position: center;
+    overflow:hidden;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 250%;
+    text-align: center;
+    justify-content: center;
+    padding: 10% 0% 0% 0%;
+}
+nav {
+    background-color:#632C2C; 
+    overflow:hidden;
+    position: fixed;
+    display:flex;
+    top: 0;
+    width: 100%;
+    flex-direction: inline;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Inconsolata", monospace;
+
+}
+.navOption {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.navOption a {
+    font-size: 2em;
+    color:  #C97D60;
+    text-decoration: none;
+    height: 100%;
+    display: block;
+}
+.navOption :visited{
+    font-size: 2em;
+    color: #C97D60;
+    text-decoration: none;
+}
+.navOption :hover{
+    font-size: 2em;
+    background-color: #C97D60;
+    color: #8ED6E6; 
+    transition: 0.2s;
+}
+.navOption :active {
+    color:#632C2C;
+    background-color: #8ED6E6;
+}
+.home-spread-pic {
+    background-image: url("resources/NAS-data-home-pic.jpg");
+    height: 50%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full_width_textbox {
+    border: solid 2px pink;
+    background-color: red;
+    margin: 0;   
+    font-family: "Inconsolata", monospace;
+    padding: 0% 3% 0% 3%;
+}
+.fw_heading {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3em;
+    color: white;
+}
