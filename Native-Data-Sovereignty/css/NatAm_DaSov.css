@@ -10,31 +10,30 @@ body {
     grid-template: 
     [nav bar] "header header header"
     [main]"main main main";
-    border: pink solid;
+    border: greenyellow;
     overflow:hidden;
     grid-template-columns: 20%;
     
 }
 .grid-header {
     grid-area: header;
-    border: purple solid;
 }
 .grid-main {
-    border: white solid;
-    padding: 5%;
+    padding: .7em 1em 1em 1em;
 }
 
 #landing_header {
     color: #EAE8E2;
     width: 100%;
-    height: 50%;
+    height: 80%;
     position: center;
     overflow:hidden;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 250%;
+    font-size: 300%;
     text-align: center;
     justify-content: center;
-    padding: 10% 0% 0% 0%;
+    padding: 2em 0em 0em 0em;
+    /* text-shadow: 0em 0.3em #8ED6E6; */
 }
 nav {
     background-color:#632C2C; 
@@ -87,14 +86,42 @@ nav {
     background-size: cover;
 }
 .full_width_textbox {
-    border: solid 2px pink;
-    background-color: red;
-    margin: 0;   
+    background-color: #219EBC;
+    margin: 2%;   
     font-family: "Inconsolata", monospace;
-    padding: 0% 3% 0% 3%;
+    padding: 1% 3% 1% 3%; 
+}
+.full_width_textbox p {
+    font-size: 1.3em;
+}
+.full_width_textbox a{
+    color:  #8ED6E6;
+}
+.full_width_textbook :visited{
+    color:  #8ED6E6;
 }
 .fw_heading {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
     color: white;
+}
+.sidebar-container {
+    background-color: #632C2C;
+    margin: 0.7em 0em 0em 0em;
+    padding: 0.5em 0.5em;
+    display: block;
+}
+.sidebar-item {
+    background-color: #C97D60;;
+    border: solid 1px magenta;
+    margin: 0em 0.1em 0.3em 0.1em;
+    padding: 0.1em 0.1em;
+    font-family: "Inconsolata", monospace;
+    color:#023047;
+    font-size: 1.2em;
+}
+.sidebar-heading {
+    color:#8ED6E6;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5em;
 }
