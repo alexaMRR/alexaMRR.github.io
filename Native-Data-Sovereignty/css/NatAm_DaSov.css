@@ -1,8 +1,8 @@
 body {
     background: #023047;
-    border: magenta solid 3px;
+    border: #8ED6E6 solid 2px;
     margin: 0;
-    height: 100%;
+
 }
   
 .grid-container { 
@@ -25,14 +25,13 @@ body {
 #landing_header {
     color: #EAE8E2;
     width: 100%;
-    height: 80%;
     position: center;
     overflow:hidden;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 300%;
+    font-size: 250%;
     text-align: center;
     justify-content: center;
-    padding: 2em 0em 0em 0em;
+    padding:3em 0em 0em 0em;
     /* text-shadow: 0em 0.3em #8ED6E6; */
 }
 nav {
@@ -46,7 +45,7 @@ nav {
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-    font-family: "Inconsolata", monospace;
+    font-family: "Red Hat Display", sans-serif;
 
 }
 .navOption {
@@ -88,22 +87,33 @@ nav {
 .full_width_textbox {
     background-color: #219EBC;
     margin: 2%;   
-    font-family: "Inconsolata", monospace;
+    font-family: "Red Hat Display", sans-serif;
     padding: 1% 3% 1% 3%; 
 }
 .full_width_textbox p {
     font-size: 1.3em;
 }
 .full_width_textbox a{
-    color:  #8ED6E6;
+    color:  white;
 }
-.full_width_textbook :visited{
-    color:  #8ED6E6;
+.full_width_textbox :visited{
+    color:  white;
 }
 .fw_heading {
     font-family: "Bebas Neue", sans-serif;
     font-size: 3em;
     color: white;
+}
+.fw_blue_section {
+    background: #8ED6E6;
+    padding: 1% 1%;
+    font-size: 90%;
+}
+.full_width_textbox img{
+    width: 25%;
+    display: grid;
+    float:right;
+    margin: 1% 1%;
 }
 .sidebar-container {
     background-color: #632C2C;
@@ -112,11 +122,10 @@ nav {
     display: block;
 }
 .sidebar-item {
-    background-color: #C97D60;;
-    border: solid 1px magenta;
+    background-color: #C97D60;
     margin: 0em 0.1em 0.3em 0.1em;
     padding: 0.1em 0.1em;
-    font-family: "Inconsolata", monospace;
+    font-family: "Red Hat Display", sans-serif;
     color:#023047;
     font-size: 1.2em;
 }
