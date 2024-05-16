@@ -1,0 +1,76 @@
+<html> 
+<head> 
+    <link rel="stylesheet" type="text/css" href="css/NatAm_DaSov.css" /> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wdth,wght@77,200..900&display=swap');
+        </style>
+        
+    <script src="NatAm_DaSov.js"></script>
+    
+</head>
+
+<body onload="homePage_onload()">
+        
+    <div class="home-spread-pic">
+        <div id="landing_header"> 
+            <h1>About this project</h1>
+        </div>
+    </div>
+
+    <div class="grid-header">
+            <nav class="navBar-Container">
+                <div class= "navOption"><a href="index.html"> HOME </a> </div>
+      <br>
+                <div class= "navOption"><a href="About.html"> ABOUT  </a></div>
+      <br> 
+                <div class= "navOption"><a href="NatAm_DaSov_Sources.html"> SOURCES  </a></div>
+      <br> 
+                <div class= "navOption"><a href="NatAm_DaSov_Connect.html"> CONNECT  </a></div>
+      <br> 
+                <div class= "navOption"><a href="NatAm_DaSov_Donate.html"> DONATE  </a></div>
+      <br> 
+            </nav>
+
+    <div class="grid-container">
+    
+    <div class="grid-main">
+        <div class="sidebar-container">
+            <div class="sidebar-heading"> Quick Index - <hr></div>
+        
+        <div class="sidebar-item">
+            <p>Purpose</p>
+        </div>
+        <div class="sidebar-item">
+            <p>Backstory</p>
+        </div>
+        <div class="sidebar-item">
+            <p>Native Studies at Berkeley</p>
+        </div>
+        <div class="sidebar-item">
+            <p>Ms.Pilar's r1b class</p>
+        </div>
+        </div>
+    </div>
+ 
+    <div class="grid-main"> 
+        
+        <div class="full_width_textbox">
+            <div class="fw_heading">
+            Under Construction
+        </div>
+            <p> Words
+        </p>
+        </div>
+
+        <div class="full_width_textbox">
+            <div class="fw_heading">
+            More construction
+        </div>
+            <p> More Words
+        </p>
+    </div>
+
+    </div>
+
+</div>
+</body>
